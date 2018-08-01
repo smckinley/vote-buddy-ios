@@ -14,6 +14,8 @@
 		808883952110D477007955D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808883932110D477007955D7 /* LaunchScreen.storyboard */; };
 		808883A02110D478007955D7 /* Vote_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088839F2110D478007955D7 /* Vote_BuddyTests.swift */; };
 		808883AB2110D478007955D7 /* Vote_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808883AA2110D478007955D7 /* Vote_BuddyUITests.swift */; };
+		808883BB2110D588007955D7 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808883B92110D588007955D7 /* Contacts.framework */; };
+		808883BC2110D588007955D7 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808883BA2110D588007955D7 /* ContactsUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		808883A62110D478007955D7 /* Vote BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vote BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		808883AA2110D478007955D7 /* Vote_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote_BuddyUITests.swift; sourceTree = "<group>"; };
 		808883AC2110D478007955D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808883B92110D588007955D7 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		808883BA2110D588007955D7 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808883BB2110D588007955D7 /* Contacts.framework in Frameworks */,
+				808883BC2110D588007955D7 /* ContactsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 				8088839E2110D478007955D7 /* Vote BuddyTests */,
 				808883A92110D478007955D7 /* Vote BuddyUITests */,
 				808883882110D475007955D7 /* Products */,
+				808883B82110D588007955D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +130,15 @@
 				808883AC2110D478007955D7 /* Info.plist */,
 			);
 			path = "Vote BuddyUITests";
+			sourceTree = "<group>";
+		};
+		808883B82110D588007955D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				808883B92110D588007955D7 /* Contacts.framework */,
+				808883BA2110D588007955D7 /* ContactsUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
